@@ -34,7 +34,7 @@ li > img {
 }
 
 .visible {
-    display: block;
+    display: none;
 }
 /* Style */
 .nav-left ul > li:nth-child(2) {
@@ -80,7 +80,6 @@ li > img {
 
 /* Box per Dropdown */
 .box-1 { 
-    display: none;
     position: absolute;
     background-color: #fff;
     min-width: 160px;
@@ -95,7 +94,6 @@ li > img {
 }
 
 .box { 
-    display: none;
     position: absolute;
     background-color: #fff;
     min-width: 160px;
