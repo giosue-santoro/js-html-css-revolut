@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+ul > li {
+    display: inline-block;
+    padding: 30px 30px;
+    cursor: pointer;
+}
+
+li > img {
+    width: 20px;
+    vertical-align: -0.3em;
+}
+
+.nav-left ul > li:nth-child(2) {
+    font-weight: bold;
+}
+
+#first-btn {
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#second-btn {
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
