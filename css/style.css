@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -23,10 +24,28 @@ li > img {
     vertical-align: -0.3em;
 }
 
+/* Style */
 .nav-left ul > li:nth-child(2) {
     font-weight: bold;
 }
 
+.nav-left ul > li:nth-child(3) {
+    color: #888888	;
+}
+
+.nav-left ul > li:nth-child(3):hover {
+    color: #000	;
+}
+
+.nav-right ul > li:nth-child(-n+4) {
+    color: #888888	;
+}
+
+.nav-right ul > li span:hover {
+    color: #000	;
+}
+
+/* Buttons */
 #first-btn {
     font-weight: bold;
     padding: 15px;
@@ -46,3 +65,5 @@ li > img {
     background-color: #000;
     color: #fff;
 }
+
+/* Box per Dropdown */
