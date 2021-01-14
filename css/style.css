@@ -33,6 +33,9 @@ li > img {
     display: flex;
 }
 
+.visible {
+    display: block;
+}
 /* Style */
 .nav-left ul > li:nth-child(2) {
     font-weight: bold;
@@ -109,6 +112,10 @@ li > img {
     color: #888888;
 }
 
-.box-2 li:hover {
+.box li:hover {
+    color: #000;
+}
+
+.box-1 li:hover {
     color: #000;
 }
